@@ -19,10 +19,8 @@ public class DesktopLauncher {
         LwjglApplicationConfiguration configuration = new LwjglApplicationConfiguration();
         configuration.title = "AnimationGUI";
         configuration.width = 640;
-        configuration.height = 480;
-        for (int size : new int[] { 128, 64, 32, 16 }) {
-            configuration.addIcon("libgdx" + size + ".png", FileType.Internal);
-        }
+        configuration.height = 720;
+        configuration.resizable = false;
         return configuration;
     }
 }
