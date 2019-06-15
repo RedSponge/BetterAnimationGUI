@@ -3,7 +3,7 @@ eclipse.project.name = appName + '-core'
 
 dependencies {
   compile "com.badlogicgames.gdx:gdx:$gdxVersion"
-  implementation "com.github.RedSponge:BetterAnimations:v0.1"
+  implementation "com.github.RedSponge:BetterAnimations:v0.2.1"
   compile "com.kotcrab.vis:vis-ui:1.4.2"
 }
         
